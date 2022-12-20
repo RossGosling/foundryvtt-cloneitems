@@ -1,3 +1,5 @@
 {
-    "CloneItems": "ButtonTitle"
+    "CloneItems": {
+        "ButtonTitle": "Clone Item"
+    }
 }

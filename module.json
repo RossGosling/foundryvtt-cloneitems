@@ -1,29 +1,40 @@
 {
-    "id": "cloneitems",
     "title": "Clone Items",
-    "author": "Ross Gosling",
+    "id": "cloneitems",
     "description": "Adds a basic inventory button, alongside edit and delete, that lets you duplicate items",
+    "version": "1.0.0",
+    "manifestPlusVersion": "1.0.0",
+    "author": "Ross Gosling",
     "authors": [{
         "name": "Ross Gosling"
     }],
+    "compatibility": {
+        "minimum": "10.288",
+        "verified": "10"
+    },
+    "relationships": {
+      "systems": [{
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.0",
+          "verified": "2.0.3"
+        }
+      }]
+    },
     "esmodules": [
         "src/module.js"
     ],
     "languages": [{
         "lang": "en",
         "name": "English",
-        "path": "lang/en.json"
+        "path": "lang/en.json",
+        "flags": {}
     }],
-    "compatibility": {
-        "minimum": "10.288",
-        "verified": "10"
-    },
-    "version": "1.0.0",
-    "manifestPlusVersion": "1.0.0",
     "url": "https://github.com/RossGosling/foundryvtt-cloneitems",
     "readme": "https://github.com/RossGosling/foundryvtt-cloneitems/blob/master/README.md",
-    "manifest": "https://raw.githubusercontent.com/RossGosling/foundryvtt-cloneitems/master/module.json",
-    "download": "https://github.com/RossGosling/foundryvtt-cloneitems/releases/download/1.0.0/module.zip",
+    "manifest": "https://github.com/RossGosling/foundryvtt-cloneitems/releases/latest/download/module.json",
+    "download": "https://github.com/RossGosling/foundryvtt-cloneitems/releases/latest/download/module.zip",
     "changelog": "https://github.com/RossGosling/foundryvtt-cloneitems/releases",
     "bugs": "https://github.com/RossGosling/foundryvtt-cloneitems/issues"
 }
