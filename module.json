@@ -33,8 +33,8 @@
     }],
     "url": "https://github.com/RossGosling/foundryvtt-cloneitems",
     "readme": "https://github.com/RossGosling/foundryvtt-cloneitems/blob/master/README.md",
-    "manifest": "https://github.com/RossGosling/foundryvtt-cloneitems/releases/latest/download/module.json",
-    "download": "https://github.com/RossGosling/foundryvtt-cloneitems/releases/latest/download/module.zip",
+    "manifest": "https://github.com/RossGosling/foundryvtt-cloneitems/releases/1.0.0/download/module.json",
+    "download": "https://github.com/RossGosling/foundryvtt-cloneitems/releases/1.0.0/download/module.zip",
     "changelog": "https://github.com/RossGosling/foundryvtt-cloneitems/releases",
     "bugs": "https://github.com/RossGosling/foundryvtt-cloneitems/issues"
 }
