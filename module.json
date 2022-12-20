@@ -1,0 +1,29 @@
+{
+    "id": "cloneitems",
+    "title": "Clone Items",
+    "author": "Ross Gosling",
+    "description": "Adds a basic inventory button, alongside edit and delete, that lets you duplicate items",
+    "authors": [{
+        "name": "Ross Gosling"
+    }],
+    "esmodules": [
+        "src/module.js"
+    ],
+    "languages": [{
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+    }],
+    "compatibility": {
+        "minimum": "10.288",
+        "verified": "10"
+    },
+    "version": "1.0.0",
+    "manifestPlusVersion": "1.0.0",
+    "url": "https://github.com/RossGosling/foundryvtt-cloneitems",
+    "readme": "https://github.com/RossGosling/foundryvtt-cloneitems/blob/master/README.md",
+    "manifest": "https://raw.githubusercontent.com/RossGosling/foundryvtt-cloneitems/master/module.json",
+    "download": "https://github.com/RossGosling/foundryvtt-cloneitems/releases/download/1.0.0/module.zip",
+    "changelog": "https://github.com/RossGosling/foundryvtt-cloneitems/releases",
+    "bugs": "https://github.com/RossGosling/foundryvtt-cloneitems/issues"
+}
