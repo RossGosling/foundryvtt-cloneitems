@@ -2,8 +2,8 @@
     "title": "Clone Items",
     "id": "cloneitems",
     "description": "Adds a basic inventory button, alongside edit and delete, that lets you duplicate items, features, and spells",
-    "version": "1.0.0",
-    "manifestPlusVersion": "1.0.0",
+    "version": "1.0.1",
+    "manifestPlusVersion": "1.0.1",
     "author": "Ross Gosling",
     "authors": [{
         "name": "Ross Gosling"
