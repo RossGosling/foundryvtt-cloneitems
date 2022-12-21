@@ -9,6 +9,20 @@ Hooks.once("setup", async function () {
     console.log("CloneItems | Loaded");
 });
 
+const generateCloneButton = (sheetClasses) => {
+
+    if (sheetClasses.includes("tidy5e")) {
+        return $(
+            `<a class="item-control item-clone" title="${ game.i18n.localize("CloneItems.ButtonTitle") }">
+                <i class="fas fa-clone"></i>
+                <span class="control-label">${ game.i18n.localize("CloneItems.ButtonTitle") }</span>
+            </a>`
+        )[0];
+    }
+
+    return $(`<a class="item-control item-clone" title="${ game.i18n.localize("CloneItems.ButtonTitle") }"><i class="fas fa-clone"></i></a>`)[0];
+}
+
 async function renderInjectionHook(sheet, element, character) {
     try {
 
@@ -21,7 +35,7 @@ async function renderInjectionHook(sheet, element, character) {
                 const item = actor.items.get(itemElement.dataset?.itemId);
                 if (item && !["race", "background", "class", "subclass"].includes(item.type)) {
 
-                    const cloneButton = $(`<a class="item-control item-clone" title="${ game.i18n.localize("CloneItems.ButtonTitle") }"><i class="fas fa-clone"></i></a>`)[0];
+                    const cloneButton = generateCloneButton(sheet.options.classes);
 
                     cloneButton.addEventListener(
                         "click",
@@ -37,7 +51,7 @@ async function renderInjectionHook(sheet, element, character) {
                     itemControlsElement.insertBefore(
                         cloneButton,
                         Array.from(itemControlsElement.children)
-                            .find((itemControl) => itemControl.classList.contains('item-delete'))
+                            .find((itemControl) => itemControl.classList.contains("item-delete"))
                     );
                 }
             }
