@@ -1,7 +1,7 @@
 
 # 1.0.2
 
--   Add Deutsch localisation
+-   Add Deutsch localisation from @mhilbrunner
 
 # 1.0.1
 
