@@ -25,12 +25,20 @@
     "esmodules": [
         "src/module.js"
     ],
-    "languages": [{
+    "languages": [
+      {
+        "lang": "de",
+        "name": "Deutsch",
+        "path": "lang/de.json",
+        "flags": {}
+      },
+      {
         "lang": "en",
         "name": "English",
         "path": "lang/en.json",
         "flags": {}
-    }],
+      }
+    ],
     "url": "https://github.com/RossGosling/foundryvtt-cloneitems",
     "readme": "https://github.com/RossGosling/foundryvtt-cloneitems/blob/master/README.md",
     "manifest": "https://github.com/RossGosling/foundryvtt-cloneitems/releases/latest/download/module.json",
